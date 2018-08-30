@@ -1,0 +1,82 @@
+html {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+.clearfix:after {
+  display: block;
+  content: " ";
+  clear: both; }
+
+.btnOne {
+  text-decoration: none;
+  color: white;
+  background: #69E0AE;
+  background: -webkit-linear-gradient(-90deg, #80D8FF, #69F0AE);
+  background: -o-linear-gradient(-90deg, #80D8FF, #69F0AE);
+  background: -moz-linear-gradient(-90deg, #80D8FF, #69F0AE);
+  background: linear-gradient(-90deg, #80D8FF, #69F0AE);
+  padding: 0.75em 3em;
+  border-radius: 3px; }
+
+.navSection {
+  width: 100%;
+  display: inline-block;
+  line-height: 90px; }
+
+.navSectionWrapper {
+  width: 80%;
+  margin: auto; }
+
+.navSectionWrapper ul {
+  list-style: none;
+  display: inline;
+  float: right; }
+
+.navSectionWrapper ul li {
+  display: inline-block; }
+
+.navSectionWrapper ul li a {
+  text-decoration: none;
+  color: #455A64;
+  margin: 0 1em; }
+
+.navSectionWrapper ul li a span {
+  font-weight: 500;
+  color: #69E0AE; }
+
+.navSectionWrapper h1 {
+  float: left;
+  font-size: 25px; }
+
+.navSectionWrapper h1 span {
+  color: #69E0AE;
+  font-weight: 400; }
+
+.landingSection {
+  width: 100%;
+  background-image: url(img/teaching_coders.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
+.landingSectionWrapper {
+  width: 80%;
+  margin: auto;
+  padding: 3em 0 27em 0; }
+
+.landingSectionWrapper {
+  font-size: 30px;
+  font-weight: 200;
+  color: #455A64;
+  margin: 1em 0 1.5rem 0;
+  line-height: 36px; }
+
+/*# sourceMappingURL=main.css.map */
